@@ -1,6 +1,6 @@
 # lab 3
 
-```bash
+```plain text
 1.Create a private GKE cluster.
 ```
 
@@ -8,14 +8,14 @@
 
 ![Screenshot from 2022-06-24 22-23-09.png](lab%203%2006f8ebf790654947b6c6253362c9daef/Screenshot_from_2022-06-24_22-23-09.png)
 
-```bash
+```plain text
 2.Deploy Nginx as a deployment using latest Nginx docker image on Docker Hub.
 
 ```
 
 ![Screenshot from 2022-06-24 22-30-13.png](lab%203%2006f8ebf790654947b6c6253362c9daef/Screenshot_from_2022-06-24_22-30-13.png)
 
-```bash
+```plain text
 3.Expose your Nginx deployment using Kubernetes LoadBalancer Service.
 
 ```
@@ -24,31 +24,31 @@
 
 ![Screenshot from 2022-06-24 22-33-11.png](lab%203%2006f8ebf790654947b6c6253362c9daef/Screenshot_from_2022-06-24_22-33-11.png)
 
-```bash
+```plain text
 4.What is the type of GCP Load Balancer that is created for your LB service?
 
 ```
 
 ![Screenshot from 2022-06-24 22-37-11.png](lab%203%2006f8ebf790654947b6c6253362c9daef/Screenshot_from_2022-06-24_22-37-11.png)
 
-```bash
+```plain text
 5.Use kubectl to view container logs.
 
 ```
 
 ![Screenshot from 2022-06-25 00-25-35.png](lab%203%2006f8ebf790654947b6c6253362c9daef/Screenshot_from_2022-06-25_00-25-35.png)
 
-```bash
+```plain text
 6.Use cloud logging service to view container logs. [hint: search about cloud logging service for gke]
 ```
 
 ![Screenshot from 2022-06-25 00-35-47.png](lab%203%2006f8ebf790654947b6c6253362c9daef/Screenshot_from_2022-06-25_00-35-47.png)
 
-```bash
+```plain text
 7.(Bonus) setup a HTTP load balancer for your deployment using the kubernetes ingress resource. (hint: link)
 ```
 
-```bash
+```plain text
 8.Create an autopilot GKE cluster with public control plane.
 
 ```
@@ -57,14 +57,14 @@
 
 [https://www.notion.so](https://www.notion.so)
 
-```bash
+```plain text
 9.Enforce the cluster’s control plane to accept only connections from your local machine.
 
 ```
 
 ![Screenshot from 2022-06-25 00-42-39.png](lab%203%2006f8ebf790654947b6c6253362c9daef/Screenshot_from_2022-06-25_00-42-39.png)
 
-```bash
+```plain text
 10.Install kubectl on local machine and use it to connect to the cluster.
 ```
 

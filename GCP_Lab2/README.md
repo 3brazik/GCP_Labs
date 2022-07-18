@@ -2,7 +2,7 @@
 
 Lab 2.1
 
-```bash
+```plain text
 1-From Cloud console, create a VPC named “auto-vpc” with auto-mode enabled,
 How many subnets created? And how many routes created for this VPC? Can you delete any of
 these routes?
@@ -14,25 +14,25 @@ these routes?
 
   
 
-```bash
+```plain text
 		34 subnets
 ```
 
-```bash
+```plain text
 		35 Route
 ```
 
-```bash
+```plain text
 Local routes cannot be deleted  
 only public route can be deleted
 ```
 
-```bash
+```plain text
 2-From Cloud console, create a VPC named “custom-vpc” with auto-mode disabled and create two
 subnets. How many routes created for this VPC?
 ```
 
-```bash
+```plain text
 3 Route
  1 for public 
 	and 2 for subnets
@@ -40,28 +40,28 @@ subnets. How many routes created for this VPC?
 
 ![Screenshot from 2022-06-23 21-25-37.png](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Screenshot_from_2022-06-23_21-25-37.png)
 
-```bash
+```plain text
 3-Using gcloud tool list all available VPCs and list subnets of each VPC.
 ```
 
 ![Screenshot from 2022-06-23 21-42-42.png](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Screenshot_from_2022-06-23_21-42-42.png)
 
-```bash
+```plain text
 4-In two different ways, How would you block internet access from you vpc?
 ```
 
-```bash
+```plain text
 first way we can create firewall to block internet access 
 second way we can delete public route 
 ```
 
-```bash
+```plain text
 5-Create a firewall rule to allow incoming SSH requests from internet to all instances in your vpc.
 ```
 
 ![Screenshot from 2022-06-23 22-51-02.png](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Screenshot_from_2022-06-23_22-51-02.png)
 
-```bash
+```plain text
 6-Modify the previous firewall rule to allow only ssh requests coming through Google’s IAP servers.
 ```
 
@@ -69,7 +69,7 @@ second way we can delete public route
 
 Lab 2.2 
 
-```bash
+```plain text
 1.Create a VM with public ip then:
 –In two different ways, SSH into this VM.
 
@@ -81,18 +81,18 @@ Lab 2.2
 
 ![Screenshot from 2022-06-23 23-25-49.png](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Screenshot_from_2022-06-23_23-25-49.png)
 
-```bash
+```plain text
 –Enforce SSH into this VM to be IAP protected.
 ```
 
 ![Screenshot from 2022-06-23 23-27-48.png](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Screenshot_from_2022-06-23_23-27-48.png)
 
-```bash
+```plain text
 To access form cli 
 gcloud compute ssh --zone=europe-west1-b instance-1 --project abdelrazek-gcp     -project --tunnel-through-iap
 ```
 
-```bash
+```plain text
 2-Create a VM without public ip then:
 	–SSH into this vm and update system packages.
 ```
@@ -101,25 +101,25 @@ gcloud compute ssh --zone=europe-west1-b instance-1 --project abdelrazek-gcp    
 
 ![Untitled](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Untitled%201.png)
 
-```bash
+```plain text
 –Setup Nginx Web Server and test your setup.
 ```
 
 ![Untitled](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Untitled%202.png)
 
-```bash
+```plain text
 –Create a custom image from this VM named “custom-img-nginx”.
 ```
 
 ![Untitled](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Untitled%203.png)
 
-```bash
+```plain text
 3- Create MIG (min 3 and max 5) of a template using the custom image “custom-img-nginx”.
 ```
 
 ![Screenshot from 2022-06-24 20-16-58.png](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Screenshot_from_2022-06-24_20-16-58.png)
 
-```bash
+```plain text
 4.Create a Global (or Regional) HTTP Load balancer to access your MIGs Nginx setup.
 ```
 
@@ -127,7 +127,7 @@ gcloud compute ssh --zone=europe-west1-b instance-1 --project abdelrazek-gcp    
 
 ![Screenshot from 2022-06-24 21-14-17.png](Lab%202%20bf0bb66b1ea44e079f385fc3f67bca39/Screenshot_from_2022-06-24_21-14-17.png)
 
-```bash
+```plain text
 Try to configure IAP at the load balancer level to protect your ingress access. Is it possible to have
 IAP enabled for HTTP resources?
 ```

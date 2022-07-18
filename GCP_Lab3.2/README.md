@@ -2,11 +2,11 @@
 
 Mohamed Abdelrazik 
 
-```bash
+```plain text
 1. Using gsutil:
 ```
 
-```bash
+```plain text
 – Create 3 buckets.
 ```
 
@@ -14,13 +14,13 @@ Mohamed Abdelrazik
 
 ![Screenshot from 2022-06-26 01-19-13.png](Lab%203%202%20e8505cb50e0c4e09a7d897fdf0ef0619/Screenshot_from_2022-06-26_01-19-13.png)
 
-```bash
+```plain text
 – Enable Versioning for them.
 ```
 
 ![Screenshot from 2022-06-26 01-18-55.png](Lab%203%202%20e8505cb50e0c4e09a7d897fdf0ef0619/Screenshot_from_2022-06-26_01-18-55.png)
 
-```bash
+```plain text
 – Upload a file into bucket-1 3
 ```
 
@@ -28,13 +28,13 @@ Mohamed Abdelrazik
 
 ![Screenshot from 2022-06-26 01-38-45.png](Lab%203%202%20e8505cb50e0c4e09a7d897fdf0ef0619/Screenshot_from_2022-06-26_01-38-45.png)
 
-```bash
+```plain text
 then copy it from bucket-1 into bucket-2 & bucket-3
 ```
 
 ![Screenshot from 2022-06-26 01-39-44.png](Lab%203%202%20e8505cb50e0c4e09a7d897fdf0ef0619/Screenshot_from_2022-06-26_01-39-44.png)
 
-```bash
+```plain text
 – Delete the file from bucket-1
 ```
 
@@ -42,7 +42,7 @@ then copy it from bucket-1 into bucket-2 & bucket-3
 
 ![Screenshot from 2022-06-26 01-41-55.png](Lab%203%202%20e8505cb50e0c4e09a7d897fdf0ef0619/Screenshot_from_2022-06-26_01-41-55.png)
 
-```bash
+```plain text
 2. Host a static website on a standard public GCS bucket.
 
 	
@@ -58,17 +58,17 @@ then copy it from bucket-1 into bucket-2 & bucket-3
 
 ![Screenshot from 2022-06-26 02-37-49.png](Lab%203%202%20e8505cb50e0c4e09a7d897fdf0ef0619/Screenshot_from_2022-06-26_02-37-49.png)
 
-```bash
+```plain text
 3. Deploy MySQL private instance and connect to it then create a new database.
 ```
 
-```bash
+```plain text
 Create a Cloud SQL instance with a private IP address
 ```
 
 ![Screenshot from 2022-06-26 03-50-16.png](Lab%203%202%20e8505cb50e0c4e09a7d897fdf0ef0619/Screenshot_from_2022-06-26_03-50-16.png)
 
-```bash
+```plain text
 Create a Compute Engine VM to
 Open two SSH connections 
 We use two windows in the VM. The first window is used to install the mysql 
@@ -106,7 +106,7 @@ connect to  sql
 
 ![Untitled](Lab%203%202%20e8505cb50e0c4e09a7d897fdf0ef0619/Untitled%202.png)
 
-```bash
+```plain text
 then create Database new_db
 ```
 
