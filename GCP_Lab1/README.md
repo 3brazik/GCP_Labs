@@ -2,14 +2,14 @@
 
 ```yaml
 1.Explore Google Cloud Console.
-	 Done
+Done
 ```
 
 ```yaml
 2.Setup a billing method on your google account.
 3.Create a GCP project.
 4.Assign your billing account to your project.
-	5.Setup project budget.
+5.Setup project budget.
 6.Setup billing alerts.
 	
 	Hosted By Mostafa Elnaggar Brother Mohamed elNaggar
@@ -25,7 +25,7 @@
 
 ```yaml
 8.Install and configure gcloud SDK on your pc.
-	 Done
+Done
 ```
 
 ```yaml
